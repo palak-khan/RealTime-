@@ -5,7 +5,7 @@ const map = L.map("map").setView([0, 0], 2);
 
 // Add tile layer from OpenStreetMap
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-  attribution: "© OpenStreetMap contributors"
+  attribution: "OpenStreetMap"
 }).addTo(map);
 
 const markers = {};
